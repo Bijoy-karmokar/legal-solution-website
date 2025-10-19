@@ -429,54 +429,91 @@
           </p>
         </div>
 
-      
-          <div class="hero-content flex-col lg:flex-row-reverse">
-            <div class="flex-1 card bg-gray-100 w-full max-w-md shrink-0">
-              <div class="card-body">
-                <fieldset class="fieldset">
-                  <label class="label">Email</label>
-                  <input type="email" class="input" placeholder="Email" />
-                  <label class="label">Password</label>
-                  <input type="password" class="input" placeholder="Password" />
-                  <div><a class="link link-hover">Forgot password?</a></div>
-                  <button
-                    class="btn bg-primary-btn text-lg font-semibold text-white mt-4"
-                  >
-                    Send Message
-                  </button>
-                </fieldset>
-              </div>
-            </div>
-              <div class="flex-1 grid grid-cols-1 md:grid-cols-2 bg-gray-100 items-center">
-                  <div class="p-10 shadow-md text-center space-y-2">
-                    <img class="mx-auto" src="images/address.png" alt="" />
-                    <h3>Address</h3>
-                    <p>A102 Adam street</p>
-                    <p>New york,NY 523345</p>
-                  </div>
-                  <div class="p-10 shadow-md text-center space-y-2">
-                    <img class="mx-auto" src="images/call.png" alt="" />
-                    <h3>Call</h3>
-                    <p>+01727838847</p>
-                    <p>+01727838847</p>
-                  </div>
-                  <div class="p-10 shadow-md text-center space-y-2">
-                    <img class="mx-auto" src="images/email.png" alt="" />
-                    <h3>Email us</h3>
-                    <p>info@gamil.com</p>
-                    <p>info@gamil.com</p>
-                  </div>
-                  <div class="p-10 shadow-md text-center space-y-2">
-                    <img class="mx-auto" src="images/time.png" alt="" />
-                    <h3>working Hours</h3>
-                    <p>sunday to monday</p>
-                    <p>Thusday to friday</p>
-                  </div>
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="flex-1 card bg-gray-100 w-full max-w-md shrink-0">
+            <div class="card-body">
+              <fieldset class="fieldset">
+                <label class="label">Email</label>
+                <input type="email" class="input" placeholder="Email" />
+                <label class="label">Password</label>
+                <input type="password" class="input" placeholder="Password" />
+                <div><a class="link link-hover">Forgot password?</a></div>
+                <button
+                  class="btn bg-primary-btn text-lg font-semibold text-white mt-4"
+                >
+                  Send Message
+                </button>
+              </fieldset>
             </div>
           </div>
+          <div
+            class="flex-1 grid grid-cols-1 md:grid-cols-2 bg-gray-100 items-center"
+          >
+            <div class="p-10 shadow-md text-center space-y-2">
+              <img class="mx-auto" src="images/address.png" alt="" />
+              <h3>Address</h3>
+              <p>A102 Adam street</p>
+              <p>New york,NY 523345</p>
+            </div>
+            <div class="p-10 shadow-md text-center space-y-2">
+              <img class="mx-auto" src="images/call.png" alt="" />
+              <h3>Call</h3>
+              <p>+01727838847</p>
+              <p>+01727838847</p>
+            </div>
+            <div class="p-10 shadow-md text-center space-y-2">
+              <img class="mx-auto" src="images/email.png" alt="" />
+              <h3>Email us</h3>
+              <p>info@gamil.com</p>
+              <p>info@gamil.com</p>
+            </div>
+            <div class="p-10 shadow-md text-center space-y-2">
+              <img class="mx-auto" src="images/time.png" alt="" />
+              <h3>working Hours</h3>
+              <p>sunday to monday</p>
+              <p>Thusday to friday</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+    <footer
+      class="footer sm:footer-horizontal bg-neutral text-neutral-content  p-10"
+    >
+      <div class="max-w-screen-lg mx-auto flex justify-between gap-14">
+        <nav class="space-y-2">
+         <img src="images/logo.png" alt="">
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </nav>
+      <nav class="space-y-2">
+        <h6 class="text-lg font-semibold">Usefull Link</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav class="space-y-2">
+        <h6 class="text-lg font-semibold">Contact Now</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+      <form class="space-y-2">
+        <h6 class="text-lg md:text-2xl font-semibold ">Subcribe</h6>
+        <p>subcribe my website.</p>
+        <fieldset class="w-80">
+          <div class="join">
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              class="input px-5 input-bordered join-item"
+            />
+            <button class="btn bg-primary-btn px-3 rounded-r-lg"><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </fieldset>
+      </form>
+      </div>
+    </footer>
   </body>
 </html>
